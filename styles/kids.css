@@ -11,6 +11,100 @@
     font-size: 32px;
     font-weight: 700;
   }
+  .display-flex{
+    display: flex;
+  }
+  /* navbar related style */
+  .navbar{
+    /* display: flex; */
+justify-content: space-evenly;
+  align-items: center;
+ 
+  }
+  .nav-links{
+    /* display: flex; */
+align-items: center;
+gap: 100px;
+
+  }
+
+  .nav-link-1{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FEA301;
+  }
+  .nav-link-2{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: #01ACFD;
+  }
+  .nav-link-3{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(5, 212, 223, 1);
+  }
+  .nav-link-4{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: rgba(93, 88, 239, 1);
+  }
+ .banner{
+/* display: flex; */
+justify-content: space-between;
+margin: 30px 200px 60px 200px;
+padding: 100px;
+border: 50px;
+background-color: aquamarine;
+border-radius: 24px;
+ }
+ .samp-1{
+  font-size: 56px;
+  font-weight: 800;
+color: #FEA301;
+ }
+ .samp-2{
+  font-size: 56px;
+  font-weight: 800;
+  color: #111111;
+ }
+ .samp-3{
+  font-size: 56px;
+  font-weight: 800;
+  color: #01ACFD;
+ }
+ .banner-description{
+  font-size: 15px;
+ color: rgb(88, 158, 41);
+ }
+ .btn-secoundary{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 195px;
+  border-radius: 12px;
+ }
+  /* shared-style */
+ 
+  .nav-item{
+    list-style: none;
+ margin-right: 32px;
+  }
+  .btn-primary{
+    background-color: #FEA301;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    width: 192px;
+    border-radius: 8px;
+    border: none;
+  }
+  
   
 
 
