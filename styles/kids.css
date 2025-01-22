@@ -7,6 +7,11 @@
     font-weight: 400;
     font-style: normal;
   }
+  .max-width-wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
   .brand{
     font-size: 32px;
     font-weight: 700;
@@ -166,17 +171,6 @@ color: #FEA301;
 justify-content: space-evenly;
  
 }
-.story-container{
-  display: flex;
-  background-color: #F0AA00;
-}
-.story-container2{
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-}
-.fact-card{
-/* align-items: flex-end; */
-}
   .section-title{
  
     font-size: 46px;
@@ -191,17 +185,48 @@ display: flex;
   .footer-container{
    
   }
+  /* story style */
+  .section{
+    background-color: rgba(153, 254, 1, 0.3);
+  }
+  .div-section{
+    margin: 50px;
+  }
+  .div-section{
+    /* background-color: white; */
+    padding: 10px;
+  }
+  .img-style{
+background-color: white;
+text-align: center;
+border-radius: 50px;
+margin: 5px;
+padding: 5px;
+ 
+  }
+  .title{
+    font-size: 30px;
+    text-align: center;
+  }
+  .story-sub-container{
+    margin: 40px;
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+.hide{
+  display: none;
+}
   /* small-devise */
  @media screen and (max-width:576px) {
-  .navbar, .banner, .nav-links{
+  .navbar{
     flex-direction: column;
   }
-  .banner-content{
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
+  .nav-links{
+
   }
  }
-
 
 
 
