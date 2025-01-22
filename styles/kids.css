@@ -177,13 +177,46 @@ justify-content: space-evenly;
     font-weight: 800;
     text-align: center;
   }
-  .footers{
-    background-color: #01ACFD;
-    height: 400px;
-display: flex;
+ .footer-container{
+  background-color: chartreuse;
+  display: flex;
+ padding: 20px;
+ gap: 100px;
+ }
+  .btns-1{
+    background-color: #3CD8E8;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  margin-left: -100px;
+    border: none;
   }
-  .footer-container{
-   
+  #expariance-badge{
+
+  }
+  .btns-2{
+    background-color: #95B226;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    margin-top: -100px;
+    padding: 20px 18px;
+  }
+  .btns-3{
+    background-color: #5D58F0;
+    color: white;
+    margin-top: -100px;
+    padding: 20px 18px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
   }
   /* story style */
   .section{
